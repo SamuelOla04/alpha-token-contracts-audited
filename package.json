@@ -1,0 +1,28 @@
+{
+  "name": "alpha-token-contracts-audit",
+  "version": "1.0.0",
+  "description": "ALPHA Token Smart Contracts - Security Audit Package",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contracts",
+    "vesting",
+    "staking",
+    "defi",
+    "security-audit"
+  ],
+  "author": "ALPHA Token Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
