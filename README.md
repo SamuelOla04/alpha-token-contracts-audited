@@ -111,13 +111,13 @@ Hardhat (or similar)
 Access to Ethereum network (local, testnet, or mainnet)
 
 Steps
-
 npm install @openzeppelin/contracts
 npx hardhat compile
 npx hardhat test
 npx hardhat run scripts/deploy.js --network <network>
 
 Configuration
+
 AlphaVesting
 
 Token address
@@ -140,7 +140,7 @@ Security Audit
 
 Audit Status: Complete — No vulnerabilities found
 
-Audit methodology included static analysis, manual review, and security pattern verification.
+Methodology: Static analysis, manual review, and security pattern verification
 
 Results:
 
@@ -156,4 +156,8 @@ Informational Notes: 1 (expected OpenZeppelin behavior)
 
 Recommendation: Contracts are production-ready and secure.
 
-Full report available in AUDIT_REPORT.md.
+Full Report: See AUDIT_REPORT.md for details.
+
+License
+
+MIT License
